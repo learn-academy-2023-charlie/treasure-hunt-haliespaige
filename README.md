@@ -9,6 +9,22 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 
 ### 📚 User Stories
 
+### Layout
+- App.js: logic (container) - maintain all the data, variables, functions to pass to other components 
+- Square.js: display (presentationl) - shows how to send the component back to the user interface 
+-use console.log() or reference data to display on user interface
+- branch: boardgame
+- know: 9 question marks and a square 
+- return: 3x3 grid with question marks
+- process: 
+    - iterate across the values in the array and return a square using .map()  
+    - reference the value to make the question mark appear
+  
+- pass board as a prop and place .map() on Square.js
+- added styling to center the grid in css
+
+
+
 - As a user, I can see a page with a three by three grid board game with a question mark in each square.
 - As a user, when I click on one of the question marks an alert appears with the index position of that question mark in the array.
 - As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
